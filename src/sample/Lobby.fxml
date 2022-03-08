@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.LobbyController">
+   <children>
+      <Rectangle fx:id="background" arcHeight="5.0" arcWidth="5.0" fill="#e2729d" height="400.0" stroke="BLACK" strokeType="INSIDE" width="600.0" />
+      <Label layoutX="140.0" layoutY="23.0" prefHeight="107.0" prefWidth="317.0" text="MyHallamSupport" textFill="WHITE" wrapText="true">
+         <font>
+            <Font name="Cambria" size="40.0" />
+         </font>
+      </Label>
+      <Button fx:id="PlacementHelp" layoutX="120.0" layoutY="150.0" mnemonicParsing="false" onAction="#PlacementHelpOnAction" prefHeight="133.0" prefWidth="168.0" text="PlacementHelp" textFill="#54d2ff">
+         <font>
+            <Font name="Cambria" size="18.0" />
+         </font></Button>
+      <Button fx:id="StudyHelp" layoutX="330.0" layoutY="150.0" mnemonicParsing="false" onAction="#StudyHelpOnAction" prefHeight="133.0" prefWidth="168.0" text="StudyHelp" textFill="#54d2ff">
+         <font>
+            <Font name="Cambria" size="18.0" />
+         </font></Button>
+   </children>
+</AnchorPane>
